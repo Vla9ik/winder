@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230811135934">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230812020823">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,7 +46,7 @@
 					<div class="premium-products__body">
 						<div class="premium-products__header">
 							<h1 class="premium-products__title">Online Premium Products</h1>
-							<button type="button" class="premium-products__navigation _icon-arrow"></button>
+							<button data-goto-header data-goto=".page__solution-block" type="button" class="premium-products__navigation _icon-arrow"></button>
 						</div>
 						<div class="premium-products__footer">
 							<picture><source srcset="img/window.webp" type="image/webp"><img class="premium-products__image" src="img/window.png" alt="windows"></picture>
@@ -68,14 +68,7 @@
 									<div class="slide-company">
 										<div class="slide-company__img-ibg">
 											<picture><source srcset="img/slider-block/home.webp" type="image/webp"><img src="img/slider-block/home.jpg" alt="house"></picture>
-											<div class="slide-company__navigation">
-												<h3 class="slide-company__title">theBEVERLY</h3>
-												<div class="slide-company__arrows">
-													<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-													<button type="button" class="slide-company__arrow swiper-button-prev _icon-arrow"></button>
-													<button type="button" class="slide-company__arrow swiper-button-next _icon-arrow"></button>
-												</div>
-											</div>
+											<h3 class="slide-company__title">theBEVERLY</h3>
 										</div>
 									</div>
 								</div>
@@ -83,14 +76,7 @@
 									<div class="slide-company">
 										<div class="slide-company__img-ibg">
 											<picture><source srcset="img/slider-block/home.webp" type="image/webp"><img src="img/slider-block/home.jpg" alt="house"></picture>
-											<div class="slide-company__navigation">
-												<h3 class="slide-company__title">theBEVERLY 02</h3>
-												<div class="slide-company__arrows">
-													<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-													<button type="button" class="slide-company__arrow swiper-button-prev _icon-arrow"></button>
-													<button type="button" class="slide-company__arrow swiper-button-next _icon-arrow"></button>
-												</div>
-											</div>
+											<h3 class="slide-company__title">theBEVERLY</h3>
 										</div>
 									</div>
 								</div>
@@ -98,17 +84,15 @@
 									<div class="slide-company">
 										<div class="slide-company__img-ibg">
 											<picture><source srcset="img/slider-block/home.webp" type="image/webp"><img src="img/slider-block/home.jpg" alt="house"></picture>
-											<div class="slide-company__navigation">
-												<h3 class="slide-company__title">theBEVERLY 03</h3>
-												<div class="slide-company__arrows">
-													<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
-													<button type="button" class="slide-company__arrow swiper-button-prev _icon-arrow"></button>
-													<button type="button" class="slide-company__arrow swiper-button-next _icon-arrow"></button>
-												</div>
-											</div>
+											<h3 class="slide-company__title">theBEVERLY</h3>
 										</div>
 									</div>
 								</div>
+							</div>
+							<div class="company-description__arrows">
+								<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+								<button type="button" class="company-description__arrow swiper-button-prev _icon-arrow"></button>
+								<button type="button" class="company-description__arrow swiper-button-next _icon-arrow"></button>
 							</div>
 						</div>
 						<article class="company-description__block company-block">
@@ -127,17 +111,390 @@
 				<div class="carousel-block__container">
 					<div class="carousel-block__body">
 						<marquee truespeed scrolldelay="40" behavior="scroll" direction="left" class="carousel-block__row">we <picture><source srcset="img/carousel-block/01.webp" type="image/webp"><img src="img/carousel-block/01.png" alt="image"></picture> transform spaces with quality</marquee>
-						<marquee truespeed scrolldelay="40" behavior="scroll" direction="right" class="carousel-block__row">products, expertise, and <picture><source srcset="img/carousel-block/02.webp" type="image/webp"><img src="img/carousel-block/02.png" alt="image"></picture> exceptional service</marquee>
+						<marquee truespeed scrolldelay="80" behavior="scroll" direction="right" class="carousel-block__row">products, expertise, and <picture><source srcset="img/carousel-block/02.webp" type="image/webp"><img src="img/carousel-block/02.png" alt="image"></picture> exceptional service</marquee>
 					</div>
 				</div>
 			</div>
+			<section class="page__reneval-block reneval-block">
+				<div class="reneval-block__container">
+					<div class="reneval-block__items">
+						<article class="reneval-block__item">
+							<div class="reneval-block__image-ibg">
+								<picture><source srcset="img/reneval-block/01.webp" type="image/webp"><img src="img/reneval-block/01.jpg" alt="image"></picture>
+							</div>
+							<div class="reneval-block__body">
+								<h3 class="reneval-block__title">Full-service replacement</h3>
+								<div class="reneval-block__text">
+									<p>Choose Renewal by Andersen® for full-service replacement windows and doors.</p>
+								</div>
+								<a href="#" class="reneval-block__link">Visit Renewal site</a>
+							</div>
+						</article>
+						<article class="reneval-block__item">
+							<div class="reneval-block__image-ibg">
+								<picture><source srcset="img/reneval-block/02.webp" type="image/webp"><img src="img/reneval-block/02.jpg" alt="image"></picture>
+							</div>
+							<div class="reneval-block__body">
+								<h3 class="reneval-block__title">Retractable screen doors</h3>
+								<div class="reneval-block__text">
+									<p>Choose Renewal by Andersen® for full-service replacement windows and doors.</p>
+								</div>
+								<a href="#" class="reneval-block__link">Visit Renewal site</a>
+							</div>
+						</article>
+						<article class="reneval-block__item">
+							<div class="reneval-block__image-ibg">
+								<picture><source srcset="img/reneval-block/03.webp" type="image/webp"><img src="img/reneval-block/03.jpg" alt="image"></picture>
+							</div>
+							<div class="reneval-block__body">
+								<h3 class="reneval-block__title">Retractable screen doors</h3>
+								<div class="reneval-block__text">
+									<p>Choose Renewal by Andersen® for full-service replacement windows and doors.</p>
+								</div>
+								<a href="#" class="reneval-block__link">Visit Renewal site</a>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<div class="page__brands brands">
+				<div class="brands__container">
+					<marquee direction="left">
+						<div class="brands__items">
+							<div class="brands__item">
+								<picture><source srcset="img/brands/01.webp" type="image/webp"><img src="img/brands/01.png" alt="brand"></picture>
+							</div>
+							<div class="brands__item">
+								<picture><source srcset="img/brands/02.webp" type="image/webp"><img src="img/brands/02.png" alt="brand"></picture>
+							</div>
+							<div class="brands__item">
+								<picture><source srcset="img/brands/03.webp" type="image/webp"><img src="img/brands/03.png" alt="brand"></picture>
+							</div>
+							<div class="brands__item">
+								<picture><source srcset="img/brands/04.webp" type="image/webp"><img src="img/brands/04.png" alt="brand"></picture>
+							</div>
+							<div class="brands__item">
+								<picture><source srcset="img/brands/05.webp" type="image/webp"><img src="img/brands/05.png" alt="brand"></picture>
+							</div>
+							<div class="brands__item">
+								<picture><source srcset="img/brands/06.webp" type="image/webp"><img src="img/brands/06.png" alt="brand"></picture>
+							</div>
+						</div>
+					</marquee>
+				</div>
+			</div>
+			<section class="page__solution-block solution-block">
+				<div class="solution-block__container">
+					<div class="solution-block__header header-block">
+						<div class="header-block__body">
+							<span class="header-block__label label">(02) TYPES</span>
+							<h2 class="header-block__title">The right solution for any project</h2>
+						</div>
+					</div>
+					<div data-tabs class="solution-block__tabs tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title _tab-active">Windows</button>
+							<button type="button" class="tabs__title">Doors</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<div class="body-solution__wrapper">
+									<div class="body-solution__card card-block">
+										<div class="card-block__image">
+											<picture><source srcset="img/card-block/window.webp" type="image/webp"><img src="img/card-block/window.png" alt="window"></picture>
+										</div>
+										<div class="card-block__info info-block">
+											<h3 class="info-block__title">Casement window</h3>
+											<div class="info-block__description description-block">
+												<div class="description-block__items">
+													<div class="description-block__item">
+														<h4 class="description-block__title">What:</h4>
+														<div class="description-block__about">The one that cracks open</div>
+													</div>
+													<div class="description-block__item">
+														<h4 class="description-block__title">Where:</h4>
+														<div class="description-block__about">Popular above kitchen sink because they are easy to open</div>
+													</div>
+													<div class="description-block__item">
+														<h4 class="description-block__title">Fun fact:</h4>
+														<div class="description-block__about">Can be as big as 8 feet tall for light and fresh air</div>
+													</div>
+												</div>
+												<button type="button" class="description-block__more">learn more</button>
+											</div>
+										</div>
+									</div>
+									<div class="body-solution__types type-solution">
+										<div class="type-solution__block window-solution">
+											<h2 class="window-solution__title _icon-link-arrow">TYPES OF WINDOWS</h2>
+											<nav class="window-solution__menu">
+												<ul class="window-solution__list">
+													<li class="window-solution__item active">
+														<a href="#" class="window-solution__link ">Casement window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Awning window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Single- and Double-Hung windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Picture window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Gliding window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Bow and Bay windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Specialty Windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Pass-Through Window</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<div class="type-solution__block window-solution">
+											<h2 class="window-solution__title _icon-link-arrow">DOORS BY TYPE</h2>
+											<nav class="window-solution__menu">
+												<ul class="window-solution__list">
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link ">DOORS BY TYPE</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Awning window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Single- and Double-Hung windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Picture window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Gliding window</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__body">
+								<div class="body-solution__wrapper">
+									<div class="body-solution__card card-block">
+										<div class="card-block__image">
+											<picture><source srcset="img/card-block/door.webp" type="image/webp"><img src="img/card-block/door.png" alt="door"></picture>
+										</div>
+										<div class="card-block__info info-block">
+											<h3 class="info-block__title">Casement window</h3>
+											<div class="info-block__description description-block">
+												<div class="description-block__items">
+													<div class="description-block__item">
+														<h4 class="description-block__title">What:</h4>
+														<div class="description-block__about">The one that cracks open</div>
+													</div>
+													<div class="description-block__item">
+														<h4 class="description-block__title">Where:</h4>
+														<div class="description-block__about">Popular above kitchen sink because they are easy to open</div>
+													</div>
+													<div class="description-block__item">
+														<h4 class="description-block__title">Fun fact:</h4>
+														<div class="description-block__about">Can be as big as 8 feet tall for light and fresh air</div>
+													</div>
+												</div>
+												<button type="button" class="description-block__more">learn more</button>
+											</div>
+										</div>
+									</div>
+									<div class="body-solution__types type-solution">
+										<div class="type-solution__block window-solution">
+											<h2 class="window-solution__title _icon-link-arrow">TYPES OF WINDOWS</h2>
+											<nav class="window-solution__menu">
+												<ul class="window-solution__list">
+													<li class="window-solution__item active">
+														<a href="#" class="window-solution__link ">Casement window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Awning window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Single- and Double-Hung windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Picture window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Gliding window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Bow and Bay windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Specialty Windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Pass-Through Window</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<div class="type-solution__block window-solution">
+											<h2 class="window-solution__title _icon-link-arrow">DOORS BY TYPE</h2>
+											<nav class="window-solution__menu">
+												<ul class="window-solution__list">
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link ">DOORS BY TYPE</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Awning window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Single- and Double-Hung windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Picture window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Gliding window</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- <div data-tabs class="soltuin-block__tabs">
+							<nav data-tabs-titles class="soltuin-block__navigation">
+								<button type="button" class="soltuin-block__title tabs__title">Windows</button>
+								<button type="button" class="soltuin-block__title tabs__title">Doors</button>
+							</nav>
+							<div data-tabs-body class="soltuin-block__content tabs__content">
+								<div class="soltuin-block__body tabs__body body-solution">
+									<div class="body-solution__card card-block">
+										<div class="card-block__image">
+											<picture><source srcset="img/card-block/window.webp" type="image/webp"><img src="img/card-block/window.png" alt="window"></picture>
+										</div>
+										<div class="card-block__info info-block">
+											<h3 class="info-block__title">Casement window</h3>
+											<div class="info-block__description description-block">
+												<div class="description-block__items">
+													<div class="description-block__item">
+														<h4 class="description-block__title">What:</h4>
+														<div class="description-block__about">The one that cracks open</div>
+													</div>
+													<div class="description-block__item">
+														<h4 class="description-block__title">Where:</h4>
+														<div class="description-block__about">Popular above kitchen sink because they are easy to open</div>
+													</div>
+													<div class="description-block__item">
+														<h4 class="description-block__title">Fun fact:</h4>
+														<div class="description-block__about">Can be as big as 8 feet tall for light and fresh air</div>
+													</div>
+												</div>
+												<button type="button" class="description-block__more">learn more</button>
+											</div>
+										</div>
+									</div>
+									<div class="body-solution__types type-solution">
+										<div class="type-solution__block window-solution">
+											<h2 class="window-solution__title _icon-link-arrow">TYPES OF WINDOWS</h2>
+											<nav class="window-solution__menu">
+												<ul class="window-solution__list">
+													<li class="window-solution__item active">
+														<a href="#" class="window-solution__link ">Casement window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Awning window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Single- and Double-Hung windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Picture window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Gliding window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Bow and Bay windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Specialty Windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Pass-Through Window</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<div class="type-solution__block window-solution">
+											<h2 class="window-solution__title _icon-link-arrow">DOORS BY TYPE</h2>
+											<nav class="window-solution__menu">
+												<ul class="window-solution__list">
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link ">DOORS BY TYPE</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Awning window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Single- and Double-Hung windows</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Picture window</a>
+													</li>
+													<li class="window-solution__item">
+														<a href="#" class="window-solution__link">Gliding window</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+						</div> -->
+				</div>
+			</section>
+			<section class="page__guide-window guide-window">
+				<div class="guide-window__container">
+					<div class="guide-window__block green-block">
+						<div class="green-block__content">
+							<h2 class="green-block__title">Get the Window Selection Guide!</h2>
+							<div class="green-block__text">
+								<p>Welcome to our downloadable PDF catalog, where you can explore a vast array of premium windows and doors designed to elevate your living spaces.</p>
+							</div>
+							<button type="button" class="green-block__button button _icon-pdf">Download Now</button>
+						</div>
+						<div class="green-block__image">
+							<picture><source srcset="img/guide-window/book.webp" type="image/webp"><img src="img/guide-window/book.png" alt="book"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="choice-block choice-block">
+				<div class="choice-block__container">
+					<div class="choice-block__header header-block">
+						<div class="header-block__body">
+							<span class="header-block__label label">(04) Why us</span>
+							<h2 class="header-block__title">Why We Are the Trusted Choice </h2>
+						</div>
+						<div class="header-block__addition">Unveiling Our Distinct Advantages!</div>
+					</div>
+				</div>
+			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230811135934"></script>
+	<script src="js/app.min.js?_v=20230812020823"></script>
 </body>
 
 </html>
