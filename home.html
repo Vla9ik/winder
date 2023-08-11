@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230811034802">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230811135934">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,17 +14,17 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header data-scroll class="header">
 			<div class="header__container">
 				<a href="#" class="header__logo"><span>win</span>der</a>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<a data-da=".action-menu__links, 992" href="mailto:example@gmail.com" class="menu__mail _icon-mail">example@gmail.com</a>
 						<ul class="menu__list">
-							<li class="menu__item"><a href="" class="menu__link">Windows & Doors</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Our works</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Reviews</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Contact us</a></li>
+							<li class="menu__item"><a href="#" data-counter="01" class="menu__link">Windows & Doors</a></li>
+							<li class="menu__item"><a href="#" data-counter="02" class="menu__link">Our works</a></li>
+							<li class="menu__item"><a href="#" data-counter="03" class="menu__link">Reviews</a></li>
+							<li class="menu__item"><a href="#" data-counter="04" class="menu__link">Contact us</a></li>
 						</ul>
 						<div class="menu__action action-menu">
 							<div class="action-menu__links">
@@ -55,13 +55,89 @@
 					</div>
 				</div>
 			</section>
+			<section class="page__company-description company-description">
+				<div class="company-description__container">
+					<h2 class="company-description__title">Windows & Doors</h2>
+					<div class="company-description__body">
+						<!-- Оболонка слайдера -->
+						<div class="company-description__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="company-description__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="company-description__slide swiper-slide">
+									<div class="slide-company">
+										<div class="slide-company__img-ibg">
+											<picture><source srcset="img/slider-block/home.webp" type="image/webp"><img src="img/slider-block/home.jpg" alt="house"></picture>
+											<div class="slide-company__navigation">
+												<h3 class="slide-company__title">theBEVERLY</h3>
+												<div class="slide-company__arrows">
+													<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+													<button type="button" class="slide-company__arrow swiper-button-prev _icon-arrow"></button>
+													<button type="button" class="slide-company__arrow swiper-button-next _icon-arrow"></button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="company-description__slide swiper-slide">
+									<div class="slide-company">
+										<div class="slide-company__img-ibg">
+											<picture><source srcset="img/slider-block/home.webp" type="image/webp"><img src="img/slider-block/home.jpg" alt="house"></picture>
+											<div class="slide-company__navigation">
+												<h3 class="slide-company__title">theBEVERLY 02</h3>
+												<div class="slide-company__arrows">
+													<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+													<button type="button" class="slide-company__arrow swiper-button-prev _icon-arrow"></button>
+													<button type="button" class="slide-company__arrow swiper-button-next _icon-arrow"></button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="company-description__slide swiper-slide">
+									<div class="slide-company">
+										<div class="slide-company__img-ibg">
+											<picture><source srcset="img/slider-block/home.webp" type="image/webp"><img src="img/slider-block/home.jpg" alt="house"></picture>
+											<div class="slide-company__navigation">
+												<h3 class="slide-company__title">theBEVERLY 03</h3>
+												<div class="slide-company__arrows">
+													<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+													<button type="button" class="slide-company__arrow swiper-button-prev _icon-arrow"></button>
+													<button type="button" class="slide-company__arrow swiper-button-next _icon-arrow"></button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<article class="company-description__block company-block">
+							<div class="company-block__header">
+								<h3 class="company-block__title">About company</h3>
+								<a href="#" class="company-block__link _icon-link-arrow">Reviews</a>
+							</div>
+							<div class="company-block__text">
+								<p>With decades of experience in the industry, we have become the go-to destination for homeowners, architects, and builders seeking premium window and door solutions.</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<div class="page__carousel-block carousel-block">
+				<div class="carousel-block__container">
+					<div class="carousel-block__body">
+						<marquee truespeed scrolldelay="40" behavior="scroll" direction="left" class="carousel-block__row">we <picture><source srcset="img/carousel-block/01.webp" type="image/webp"><img src="img/carousel-block/01.png" alt="image"></picture> transform spaces with quality</marquee>
+						<marquee truespeed scrolldelay="40" behavior="scroll" direction="right" class="carousel-block__row">products, expertise, and <picture><source srcset="img/carousel-block/02.webp" type="image/webp"><img src="img/carousel-block/02.png" alt="image"></picture> exceptional service</marquee>
+					</div>
+				</div>
+			</div>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230811034802"></script>
+	<script src="js/app.min.js?_v=20230811135934"></script>
 </body>
 
 </html>
