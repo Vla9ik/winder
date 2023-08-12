@@ -1664,8 +1664,8 @@ body::after {
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: all 0.7s;
-  transition: all 0.7s;
+  -webkit-transition: all 0.45s;
+  transition: all 0.45s;
 }
 
 .guide-window._watcher-view {
@@ -1948,6 +1948,10 @@ body::after {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 0.0625rem SOLID rgba(35, 35, 35, 0.3098039216);
+}
+
+.portfolio__arrow.swiper-button-disabled::before {
+  color: rgba(35, 35, 35, 0.3098039216);
 }
 
 .slide-portfolio {
