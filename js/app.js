@@ -3849,7 +3849,7 @@
                 nextEl: ".swiper-button-next"
             },
             breakpoints: {
-                1310: {
+                1400: {
                     centeredSlides: false,
                     spaceBetween: -150
                 }
